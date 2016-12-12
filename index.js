@@ -1,4 +1,5 @@
 'use strict';
+
 const backgroundColor = '#282828';
 const foregroundColor = '#F8F8F0';
 
@@ -22,9 +23,10 @@ const colors = [
   foregroundColor
 ];
 
+exports.onWindow = browserWindow => browserWindow.setVibrancy('ultra-dark');
 exports.decorateConfig = (config) => (
   Object.assign({}, config, {
-    backgroundColor,
+    backgroundColor: 'rgba(40,40,40,0.75)', //rgba(40,40,40,0.1)
     foregroundColor,
     cursorColor: foregroundColor,
     colors,

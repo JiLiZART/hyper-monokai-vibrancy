@@ -1,14 +1,15 @@
 {
-  "name": "hyperterm-monokai",
-  "version": "0.1.1",
-  "description": "a monokai theme for Hyperterm",
+  "name": "hyperterm-monokai-vibrancy",
+  "version": "1.0.0",
+  "description": "a monokai theme for hyperterm with vibrancy",
   "license": "MIT",
-  "repository": "arkhamdev/hyperterm-monokai.git",
+  "repository": "https://github.com/JiLiZART/hyperterm-monokai-vibrancy.git",
   "files": [
     "index.js"
   ],
   "keywords": [
     "hyperterm",
-    "hyperterm-theme"
+    "hyperterm-theme",
+    "vibrancy"
   ]
 }

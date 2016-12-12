@@ -1,12 +1,12 @@
-# hyperterm-monokai
+# hyperterm-monokai-vibrancy
 
-> Monokai theme for [HyperTerm](https://hyperterm.org)
+> Monokai theme for [HyperTerm](https://hyperterm.org) with vibrancy support
 
 ![](screenshot.png)
 
 ## Install
 
-Add `hyperterm-monokai` to the plugins list in your `~/.hyper.js` config file.
+Add `hyperterm-monokai-vibrancy` to the plugins list in your `~/.hyper.js` config file.
 
 ## License
 
