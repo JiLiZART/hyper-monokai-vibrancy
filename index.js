@@ -1,6 +1,6 @@
 'use strict';
 
-const backgroundColor = '#282828';
+const backgroundColor = 'rgba(40,40,40,0.75)';
 const foregroundColor = '#F8F8F0';
 
 const colors = [
@@ -26,7 +26,7 @@ const colors = [
 exports.onWindow = browserWindow => browserWindow.setVibrancy('ultra-dark');
 exports.decorateConfig = (config) => (
   Object.assign({}, config, {
-    backgroundColor: 'rgba(40,40,40,0.75)', //rgba(40,40,40,0.1)
+    backgroundColor,
     foregroundColor,
     cursorColor: foregroundColor,
     colors,
@@ -34,7 +34,6 @@ exports.decorateConfig = (config) => (
       ${config.css || ''}
       .tab_tab {
         color: ${foregroundColor} !important;
-        background-color: ${backgroundColor} !important;
       }
       .tab_active:before {
         border-bottom-color: #E6DB74 !important;
