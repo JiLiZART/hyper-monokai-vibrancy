@@ -1,6 +1,6 @@
 'use strict';
 
-const backgroundColor = 'rgba(0,0,0,0.1)';
+const backgroundColor = 'rgba(20,20,20,0.2)';
 const foregroundColor = '#F8F8F0';
 
 const colors = [
@@ -23,12 +23,13 @@ const colors = [
     foregroundColor
 ];
 
-exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
+exports.onWindow = browserWindow => browserWindow.setVibrancy('ultra-dark');
 exports.decorateConfig = (config) => (
-    Object.assign({}, config, {
+    Object.assign({}, {
         backgroundColor,
         foregroundColor,
         cursorColor: foregroundColor,
+        borderColor: 'rgba(45,46,49,0.5)',
         colors,
         css: `
           ${config.css || ''}
@@ -40,5 +41,5 @@ exports.decorateConfig = (config) => (
             border-bottom-color: #E6DB74 !important;
           }
         `
-    })
+    }, config);
 );
