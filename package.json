@@ -1,16 +1,16 @@
 {
-  "name": "hyper-monokai-vibrancy",
-  "version": "1.0.4",
-  "description": "a monokai theme for hyper term with vibrancy",
-  "license": "MIT",
-  "repository": "https://github.com/JiLiZART/hyper-monokai-vibrancy.git",
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "hyper",
-    "hyper-theme",
-    "monokai",
-    "vibrancy"
-  ]
+    "name": "hyper-monokai-vibrancy",
+    "version": "1.0.5",
+    "description": "a monokai theme for hyper term with vibrancy",
+    "license": "MIT",
+    "repository": "https://github.com/JiLiZART/hyper-monokai-vibrancy.git",
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "hyper",
+        "hyper-theme",
+        "monokai",
+        "vibrancy"
+    ]
 }
