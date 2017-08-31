@@ -41,5 +41,5 @@ exports.decorateConfig = (config) => (
             border-bottom-color: #E6DB74 !important;
           }
         `
-    }, config);
+    }, config)
 );
