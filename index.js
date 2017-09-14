@@ -25,7 +25,7 @@ const colors = [
 
 exports.onWindow = browserWindow => browserWindow.setVibrancy('ultra-dark');
 exports.decorateConfig = (config) => (
-    Object.assign({}, {
+    Object.assign({}, config, {
         backgroundColor,
         foregroundColor,
         cursorColor: foregroundColor,
@@ -41,5 +41,5 @@ exports.decorateConfig = (config) => (
             border-bottom-color: #E6DB74 !important;
           }
         `
-    }, config)
+    })
 );
