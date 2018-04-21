@@ -11,5 +11,7 @@ Add `hyper-monokai-vibrancy` to the plugins list in your `~/.hyper.js` config fi
 ## License
 
 MIT 
+
 © [Badr Chaouai](http://arkhamdev.com)
+
 © [Nikolay Kostyurin](https://artkost.ru)
